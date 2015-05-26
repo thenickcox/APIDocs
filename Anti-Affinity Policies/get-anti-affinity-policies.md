@@ -2,14 +2,15 @@
   "title": "Get Anti-Affinity Policies",
   "date": "11-20-2014",
   "author": "Bryan Friedman",
-  "attachments": []
+  "attachments": [],
+  "sticky":"true"
 }}}
 
 Gets a list of anti-affinity policies within a given account. Calls to this operation must include a token acquired from the authentication endpoint. See the [Login API](../Authentication/login.md) for information on acquiring this token.
 
 ### When to Use It
 
-Use this API operation when you want to get a list of anti-affinity policies within a given account and what servers are part of these policies. You can also use the IDs provided in this list to add a server to that anti-affinity policy using the API.
+Use this API operation when you want to get a list of anti-affinity policies within a given account and what servers are part of these policies. You can also use the IDs provided in this list to add a server to that anti-affinity policy using the [Set Anti-Affinity Policy On Server](../Anti-Affinity Policies/set-anti-affinity-policy-on-server.md) API method.
 
 ## URL
 

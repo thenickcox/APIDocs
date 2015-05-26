@@ -14,12 +14,12 @@ The following link definitions are related to the servers resource. They may be 
 
 | Relation (rel) | Description | Verbs |
 | --- | --- | --- |
-| alertPolicyMap | Retrieve or modify the given alert policy for the given server. | GET / DELETE |
-| alertPolicyMappings | Retrieve or modify the list of alert policies for the given server. | GET / PUT / DELETE |
-| antiAffinityPolicyMapping | Retrieve or modify the anti-affinity policy for the given server. | GET / PUT / DELETE |
+| alertPolicyMap | Retrieve or modify the given alert policy for the given server. | [DELETE](../Alert Policies/remove-alert-policy-from-server.md) |
+| alertPolicyMappings | Retrieve or modify the list of alert policies for the given server. | [POST](../Alert Policies/add-alert-policy-to-server.md) |
+| antiAffinityPolicyMapping | Retrieve or modify the anti-affinity policy for the given server. | [GET](../Anti-Affinity Policies/view-anti-affinity-policy-on-server.md) / [PUT](../Anti-Affinity Policies/set-anti-affinity-policy-on-server.md) / [DELETE](../Anti-Affinity Policies/remove-anti-affinity-policy-from-server.md) |
 | billing | Retrieve billing information for the given server. | GET |
 | capabilities | Retrieve the supported capabilities listing for the given server. | GET |
-| cpuAutoscalePolicyMapping | Retrieve or modify the vertical autoscale policy for the given server. | GET / PUT / DELETE |
+| cpuAutoscalePolicyMapping | Retrieve or modify the vertical autoscale policy for the given server. | [GET](../Autoscale Policies/view-vertical-autoscale-policy-on-server.md) / [PUT](../Autoscale Policies/set-vertical-autoscale-policy-on-server.md) / [DELETE](../Autoscale Policies/remove-vertical-autoscale-policy-from-server.md) |
 | createServer | Create a server. | [POST](../Servers/create-server.md) |
 | credentials | Retrieve credentials for the given server. | [GET](../Servers/get-server-credentials.md)
 | publicIPAddress | Retrieve or modify a public IP address of the specific server. | [GET](../Public IP/get-public-ip-address.md) / [DELETE](../Public IP/remove-public-ip-address.md) / [PUT](../Public IP/update-public-ip-address.md) |

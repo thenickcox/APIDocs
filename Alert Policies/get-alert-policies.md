@@ -2,14 +2,15 @@
   "title": "Get Alert Policies",
   "date": "03-25-2015",
   "author": "Bryan Friedman",
-  "attachments": []
+  "attachments": [],
+  "sticky":"true"
 }}}
 
 Gets a list of alert policies within a given account. Calls to this operation must include a token acquired from the authentication endpoint. See the [Login API](../Authentication/login.md) for information on acquiring this token.
 
 ### When to Use It
 
-Use this API operation when you want to get a list of alert policies within a given account and what servers are part of these policies. You can also use the IDs provided in this list to add a server to that alert policy using the API.
+Use this API operation when you want to get a list of alert policies within a given account and what servers are part of these policies. You can also use the IDs provided in this list to add a server to that alert policy using the [Add Alert Policy to Server](../Alert Policies/add-alert-policy-to-server.md) API method.
 
 ## URL
 

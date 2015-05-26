@@ -1,0 +1,35 @@
+{{{
+  "title": "Remove Anti-Affinity Policy from Server",
+  "date": "05-25-2015",
+  "author": "Bryan Friedman",
+  "attachments": []
+}}}
+
+Removes the anti-affinity policy from a given server if it exists. Calls to this operation must include a token acquired from the authentication endpoint. See the [Login API](../Authentication/login.md) for information on acquiring this token.
+
+### When to Use It
+
+Use this API operation when you want to remove the anti-affinity policy from a server.
+
+## URL
+
+### Structure
+
+    DELETE https://api.ctl.io/v2/servers/{accountAlias}/{serverId}/antiAffinityPolicy
+
+### Example
+
+    DELETE https://api.ctl.io/v2/servers/ALIAS/WA1ALIASSERV0101/antiAffinityPolicy
+
+## Request
+
+### URI Parameters
+
+| Name | Type | Description | Req. |
+| --- | --- | --- | --- |
+| AccountAlias | string | Short code for a particular account | Yes |
+| ServerId | string | ID of the server. Retrieved from query to containing group, or by looking at the URL when viewing a server in the Control Portal. | Yes |
+
+## Response
+
+The response will not contain JSON content, but should return the HTTP `204 No Content` response upon deletion of the policy.

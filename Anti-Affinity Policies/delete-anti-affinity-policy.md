@@ -2,7 +2,8 @@
   "title": "Delete Anti-Affinity Policy",
   "date": "11-20-2014",
   "author": "Bryan Friedman",
-  "attachments": []
+  "attachments": [],
+  "sticky":"true"
 }}}
 
 Deletes a given anti-affinity policy by ID. Calls to this operation must include a token acquired from the authentication endpoint. See the [Login API](../Authentication/login.md) for information on acquiring this token.

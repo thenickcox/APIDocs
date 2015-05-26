@@ -2,7 +2,8 @@
   "title": "Update Alert Policy",
   "date": "03-25-2015",
   "author": "Bryan Friedman",
-  "attachments": []
+  "attachments": [],
+  "sticky":"true"
 }}}
 
 Updates the name of an alert policy in a given account. Calls to this operation must include a token acquired from the authentication endpoint. See the [Login API](../Authentication/login.md) for information on acquiring this token.
